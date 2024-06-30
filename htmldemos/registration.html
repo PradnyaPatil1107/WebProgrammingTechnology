@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+fieldset{
+    background-color:blanchedalmond;
+    margin: 30px;
+}
+        input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style=width:500px;>
+    <legend>Registartion Details</legend>
+    <table>
+        <tr>
+    <td><label for="University">University</label></td>
+    <td><input type="text" id="un" name="un"></td>
+</tr>
+<tr>
+    
+        <td><lable for="Institute">Institute</lable></td>
+        <td><input type="text" id="in" name="Institute"></td>
+    
+</tr>
+<tr>
+    <td ><lable for="Branch">Branch</lable></td>
+    <td> 
+        <select name="Branch" id="brach" >
+        <option value=""></option>
+        <option value="CSE ENGG">CSE ENGG</option>
+        <option value="ENTC ENGG">ENTC ENGG</option>
+        <option value="CHEMICAL ENGG">CHEMICAL ENGG</option>
+        <option value="MECHANICAL ENGG">MECHANICAL ENGG</option>"></td>
+</tr>
+<tr>
+    <td>
+        <lable for="Degree">Degree</lable>
+    </td>
+    <td>
+        <select name="Degree" id="123">
+            <option value=""></option>
+            <option value="BTech">BTech</option>
+            <option value="BE">BE</option> 
+
+        </select>
+        <td>
+            <input type="radio" name="pursuing" val="pursuing" id="pur">
+            <lable>Pursuing</lable>
+            <input type="radio" name="complited" val="complited" id="com">
+            <lable>Complited</lable>
+        </td>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        <lable for="Average CPI">Average CPI</lable>
+    </td>
+    <td>
+        <input type="number" id="avg" name="avg" min="2" max="10">
+        <lable>Upto</lable>
+    </td>
+    <td>
+        <input type="number" id="av" name="sem" min="1" max="8">
+        <lable>th semister</lable>
+    </td>
+</tr>
+<tr>
+    <td>
+        <lable for="Experience">Experience</lable>
+    </td>
+    <td><input type="number" id="exp" name="expreience" value="exp" min="2" max="25"></td>
+</tr>
+<tr>
+    <td><label>Linkedin:</label></td>
+    <td><input type="url" id="adf"></td>
+</tr>
+
+    <td>
+<button type="submit" id="submit" name="submit" value="Submit">Submit</td>
+
+    </table>
+</fieldset>
+</body>
+</html>

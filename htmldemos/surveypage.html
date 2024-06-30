@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table cellspacing="25" cellpadding="2" frame="hsides">
+        <h1>Internet Usage Survey</h1>
+        <tr>
+            <td>What type of Internet connection do you have? <br>(Select one)</td>
+            <td><select id="internet" name="internet">
+                <option value="Dial-up">Dial-up</option>
+                <option value="DSL">DSL</option>
+                <option value="Highspeed Cable">High Speed Cable</option>
+                <option value="other">Other</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td>What type of computer do you use most at house?</td>
+          <td><input type="radio" name="desk" id="desktop" value="desktop">
+            <label>Desktop</label>
+            <input type="radio" name="desk" id="laptop" value="laptop">
+            <label>Laptop</label>
+          </td>  
+        </tr>
+        <tr>
+            <td>How would you describe your main reason for using the internet?
+            </td>
+            <td>
+                <input type="radio" name="reason" id="work" value="work">
+                <label>To do work-related activites</label><br>
+                <input type="radio" name="reason" id="school" value="school">
+                <label>To do school-related activities </label><br>
+                <input type="radio" name="reason" id="ent" value="ent">
+                <label>For entertainment purposes</label><br>
+                <input type="radio" name="reason" id="other" value="other">
+                <label>Other activities</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <fieldset>
+                    <legend>Type of sites visited</legend> 
+                     What types of web sites do you access most often?<br>
+                     Check all that apply.<br>
+                     <input type="checkbox" name="apply" id="self" value="self">
+                     <label>Self Improvement</label><br>
+                     <input type="checkbox" name="apply" id="ent" value="ent">
+                     <label>Entertainment</label><br>
+                     <input type="checkbox" name="apply" id="news" value="news">
+                     <label>News and Sports</label><br>
+                     <input type="checkbox" name="apply" id="Ref" value="Ref">
+                     <label>Reference</label><br>
+                     <input type="checkbox" name="apply" id="email" value="email">
+                     <label>Email</label>
+
+                </fieldset>
+            </td>
+            <td>
+                <fieldset>
+                    <legend>Time spent using Internet</legend>
+                    During an average week,how long do you spend online?<br>
+                    <input type="checkbox" name="hours" id="3" value="3">
+                    <label>0-3 Hours</label> <br>
+                    <input type="checkbox" name="hours" id="4" value="4">
+                    <label>4-6 Hours</label> <br>
+                    <input type="checkbox" name="hours" id="7" value="7">
+                    <label>7-10 Hours</label><br> 
+                    <input type="checkbox" name="hours" id="11" value="11">
+                    <label>11-14 Hours</label> <br>
+                    <input type="checkbox" name="hours" id="15" value="15">
+                    <label>15+Hours</label> 
+                </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Please comment on your opinions concerning Internet privacy and safety:</label></td></tr>
+           <tr> <td><textarea name="ttt" id="89" cols="90" rows="10"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>First Name:</label>
+            <input type="text" name="fname" id="123"></td>
+            <td><label>Last Name:</label>
+            <input type="text" name="lname" id="125"></td>
+        </tr>
+        <tr>
+            <td><label>Age:</label>
+            <input type="text" name="age" id="age">
+            </td>
+            <td><label>Zip Code:</label>
+            <input type="text" name="zip" id="code">
+        </td>
+        </tr>
+    </table>
+</body>
+</html>
